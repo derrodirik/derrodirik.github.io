@@ -130,7 +130,7 @@ const onMinute = () => {
   minDot((360 * currentDate.getMinutes()) / 60,3);
   if (currentDate.getHours() >= 0 && currentDate.getMinutes() === 0) {
     Bangle.buzz(100);
-    setTimeout(Bangle.buzz(100), 100)
+    setTimeout(Bangle.buzz(100), 200);
   }
   drawDate();
 };

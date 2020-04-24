@@ -1,2 +1,3 @@
 0.01: Based on the Analog Clock app, minimal dot interface
 0.02: Switched to 2 instead of one vibration so you can distinguish messages from gadgetbridge
+0.03 Added missing semicolon
